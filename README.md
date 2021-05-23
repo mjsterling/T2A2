@@ -4,6 +4,17 @@
 <!-- TOC -->
 - [Table of Contents](#table-of-contents)
 - [Overview](#overview)
+- [Vision Statement - The Problem of Money](#vision-statement---the-problem-of-money)
+- [Skratch](#skratch)
+  - [Purpose](#purpose)
+  - [Functionality / Features](#functionality--features)
+  - [Sitemap](#sitemap)
+  - [Target Audience](#target-audience)
+  - [Tech Stack](#tech-stack)
+  - [User Stories](#user-stories)
+  - [Wireframes](#wireframes)
+  - [ERD](#erd)
+  - [High-Level Components](#high-level-components)
 <!-- /TOC -->
 
 ## Overview
@@ -46,7 +57,7 @@ Skratch has the basic building blocks of any two-way marketplace, with the obvio
 
 - Agreements
 
-  - Once an trade is agreed upon, Skratch sends both participants a personalised contract (nominally an "Agreement" to reduce scare factor) in which they agree to exchange services. Users digitally sign these, after which copies of the agreements are stored securely on the Skratch server.
+  - Once an trade is agreed upon, Skratch sends both participants a personalised contract (nominally an "Agreement") in which they legally consent to the exchange of services. Users digitally sign these, after which copies of the agreements are stored securely on the Skratch server. 
 
 - Cancellation of Agreements
 
@@ -54,7 +65,7 @@ Skratch has the basic building blocks of any two-way marketplace, with the obvio
 
 - Trust Ratings
 
-  - Users that have engaged in transactions are strongly encouraged to rate each other's services and professionalism out of 5 on metrics of Quality, Responsiveness and Agreeability. An aggregate of these ratings are displayed on the user's profile after a statistically significant number of ratings have been received, allowing users to make informed decisions about who they are potentially dealing with.
+  - Users that have engaged in transactions are strongly encouraged to rate each other out of 5 based on how the experience was. An aggregate of these ratings is displayed on the user's profile after a statistically significant number of ratings have been received, allowing users to make informed decisions about who they are potentially dealing with.
 
 ### Sitemap
 
@@ -71,4 +82,33 @@ Skratch has the basic building blocks of any two-way marketplace, with the obvio
   - Listings
     - Listing
       - Send Trade Offer
+
+### Target Audience
+
+Skratch is primarily aimed at tradespeople and artisans with sole trader capabilities, however anyone with a valuable skill could find benefit in exchanging services on the platform.
+
+### Tech Stack
+
+- HTML5
+- CSS3
+- Ruby 2.7.2 
+- Rails 6
+- Heroku (deployment)
+
+### User Stories
+
+- As a sole trader, I want to exchange services on an online platform, so that I can connect with my local community, save money on tax, and reduce the amount of cashflow required to operate.
+
+### Wireframes
+
+![WF1](docs/WF1.png)
+![WF2](docs/WF2.png)
+![WF3](docs/WF3.png)
+
+### ERD
+
+![ERD](docs/SkratchERD.png)
+
+### High-Level Components
+
 
